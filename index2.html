@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Tanmay Mathur</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <h2>Hello, World.</h2>
+        <h1>I'm <span class="highlight">Tanmay Mathur.</span></h1>
+        <p>| FRONT-END DEVELOPER | BACK-END DEVELOPER | ANDROID DEVELOPER |</p>
+        <button class="cta" id="more-about-btn">More About Me ↓</button>
+    </section>
+    
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <p>I am a passionate web developer.</p>
+        <p>I have expertise in building dynamic and responsive websites.</p>
+        <p>With a strong foundation in modern web technologies, I strive to create user-friendly and visually appealing digital experiences.</p>
+        <h3>My Skills & Experience</h3>
+        <p>✔ HTML, CSS, JavaScript</p>
+        <p>✔ Responsive Web Design</p>
+        <p>✔ Logical Thinking & Problem-Solving</p>
+        <p>✔ Front-End & Back-End Development</p>
+        <p>✔ UI/UX Principles & Web Optimization</p>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Description of project 1.</p>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Dialog Box -->
+    <dialog id="thank-you-dialog">
+        <div class="dialog-content">
+            <p>Thanks for visiting the website!</p>
+            <button id="close-dialog">Close</button>
+        </div>
+    </dialog>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+

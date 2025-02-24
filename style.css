@@ -1,0 +1,136 @@
+ 
+/* styles.css */
+ 
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #000;
+    color: white;
+    text-align: center;
+    transition: background 0.3s ease-in-out;
+    width: 100%;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+.about-section {
+    background: url('brown.png') no-repeat center center/cover; /* Ensure full coverage */
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 100vw; /* Full width */
+    margin: auto;
+    color: black; /* Ensures text is black */
+}
+
+.scrollable-section {
+    background: white;
+    padding: 50px;
+    width: 100vw;
+}
+
+#home {
+    background: url('brown.png') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black; /* Ensure contrast */
+    padding: 20px;
+}
+
+.hero h2, .hero h1, .hero p, .cta {
+    background: rgba(255, 255, 255, 0.6); /* Light background to improve text visibility */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: black;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff0077;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('background.jpg') no-repeat center center/cover;
+}
+.hero h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+.hero .highlight {
+    color: #ff0077;
+}
+.cta {
+    padding: 10px 20px;
+    background: #ff0077;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+}
+form input, form textarea {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    background: #222;
+    color: white;
+    border: none;
+}
+button {
+    padding: 10px 20px;
+    background: #ff0077;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dialog Box Styles */
+dialog {
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.dialog-content {
+    font-size: 18px;
+    font-weight: bold;
+}
+#close-dialog {
+    margin-top: 15px;
+    background: #ff0077;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
